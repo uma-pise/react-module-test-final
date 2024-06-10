@@ -1,0 +1,26 @@
+.note-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.note-input input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.note-input button {
+  padding: 5px 10px;
+}
+
+@media (max-width: 600px) {
+  .note-input {
+    flex-direction: column;
+  }
+
+  .note-input input {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
